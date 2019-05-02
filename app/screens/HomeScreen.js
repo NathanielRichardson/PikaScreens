@@ -14,7 +14,7 @@ class HomeScreen extends React.Component {
             // First of the view styles (styles listed below)
             <View style={styles.greenContainer}>
                 <View style={styles.top}>
-                    <Image source={require('./app/img/townLogo.png')}/>
+                    <Image source={require('../img/townLogo.png')}/>
                     <Text style={styles.header}>
                         P i k a s   i n   t h e   P a r k !
                     </Text>
