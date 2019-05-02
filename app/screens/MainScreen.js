@@ -23,25 +23,25 @@ class MainScreen extends React.Component {
                         onPress={this.onPressMap}
                         style={styles.button}
                     >
-                        <MenuItem itemImage={require ('./app/img/mapIcon.png')}/>
+                        <MenuItem itemImage={require ('../img/mapIcon.png')}/>
                     </TouchableOpacity>
                     <TouchableOpacity
                         onPress={this.onPressProgress}
                         style={styles.button}
                     >
-                        <MenuItem itemImage={require ('./app/img/progressIcon.png')}/>
+                        <MenuItem itemImage={require ('../img/progressIcon.png')}/>
                     </TouchableOpacity>
                     <TouchableOpacity
                         onPress={this.onPressInfo}
                         style={styles.button}
                     >
-                        <MenuItem itemImage={require ('./app/img/infoIcon.png')}/>
+                        <MenuItem itemImage={require ('../img/infoIcon.png')}/>
                     </TouchableOpacity>
                     <TouchableOpacity
                         onPress={this.onPressFacts}
                         style={styles.button}
                     >
-                        <MenuItem itemImage={require ('./app/img/funFactsIcon.png')}/>
+                        <MenuItem itemImage={require ('../img/funFactsIcon.png')}/>
                     </TouchableOpacity>
                 </View>
             </View>
